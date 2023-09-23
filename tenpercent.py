@@ -1,5 +1,6 @@
 perweek = int(input('How much per week? '))
 totalweeks = int(input('How many weeks? '))
+
 weeksprice = perweek * totalweeks
 print(f'${perweek:.2f} * {totalweeks} weeks = ${weeksprice:.2f}')
 tenpercentloa = (weeksprice * 10) / 100
