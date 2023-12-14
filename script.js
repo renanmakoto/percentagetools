@@ -76,10 +76,9 @@ function calculation() {
         refresh.innerHTML = `<h4>REFRESH THE PAGE TO CALCULATE AGAIN</h4>`
 
     } else if (hours == 20 && weeks == 1) {
-        regDiv.innerHTML = `<p>Non-Refundable Registration Fee: $ 100.00</p>`
-        totalDiv.innerHTML = `<p>TOTAL: $ ${totalFee}.00</p>`
+        
         let totalFee = regFee + twentyHours 
-
+   
         numberOfHoursDiv.innerHTML = `<p>The cost for ONE WEEK is $ ${twentyHours}.00</p>`
         regDiv.innerHTML = `<p>Non-Refundable Registration Fee: $ 100.00</p>`
         totalDiv.innerHTML = `<p>TOTAL: $ ${totalFee}.00</p>`
