@@ -2,7 +2,7 @@ const fiveHours = 65
 const tenHours = 120
 const fifteenHours = 180
 const twentyHours = 225
-const thirtyFiveHours = 300
+const thirtyFiveHours = 325
 const regFee = 100
 
 let inputNumberOfHours = document.getElementById("numberOfHours")
